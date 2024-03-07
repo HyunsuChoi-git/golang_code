@@ -3,12 +3,14 @@ package main
 import (
 	"bitbucket.org/okestrolab/baton-om-sdk/btodb"
 	"golang_code/db"
-	"golang_code/test"
+	"golang_code/libvirt"
 	"time"
 )
 
 func main() {
-	test.OpenstackTest()
+	//test.OpenstackTest()
+
+	libvirt.LibvirtParsingTest()
 
 	//exit := make(chan os.Signal, 1)
 	//<-exit
